@@ -13,9 +13,9 @@ html,body{
     position: absolute;
     border-radius: 25px;
     width: 1200px;
-    height: 540px;
+    height: 600px;
     background-color:white;
-    top: 90px;
+    top: 50px;
     left: 85px;
   }
   .head-1{
@@ -28,7 +28,7 @@ html,body{
   
   .p-1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     position:absolute;
     top:70px;
     left: 60px;
@@ -46,3 +46,83 @@ html,body{
     width:600px;
     left:600px;
  }
+ .one-container{
+    position: relative;
+    position: absolute;
+    margin-bottom: 50px;
+    top: 225px;
+    right:760px;
+    padding: 50px 20px;
+    height: 310px;
+    width: 400px;
+    background: white;
+    border-radius:20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    margin-left: 50vh;
+  }
+  
+  .one-container .inputBox
+    {
+      position: relative;
+      width:300px;
+      height: 46px;
+      margin-bottom: 35px;
+    }
+    .one-container .inputBox:last-child
+    {
+       margin-bottom: 0;
+    }
+    .one-container .inputBox input
+    {
+      position: absolute;
+      top:0;
+      left: 0;
+      width:100%;
+      border:1px solid #111;
+      background: transparent;
+      padding: 10px;
+      border-radius: 4px;
+      box-sizing:border-box;
+      outline:none;
+      font-size: 16px;
+      color:#111;
+      font-weight: 300;
+    }
+    .one-container .inputBox span
+    {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top:1px;
+        left:1px;
+        padding: 10px;
+        display:inline-block;
+        font-size: 16px;
+        color:#111;
+        font-weight: 300;
+        transition: 0.5s;
+        pointer-events: none;
+    }
+  
+    .one-container .inputBox input:focus ~ span,
+    .one-container .inputBox input:valid ~ span
+    {
+      transform: translateY(-40px) translateX(-32px);
+      font-size: 12px;
+    }
+    .one-container .inputBox input[type="submit"]
+    {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: #2196f3;
+      position: relative;
+      top:75px;
+      color:#fff;
+      max-width: 120px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+   .one-container .inputBox input[type="submit"]:hover
+   {
+    background:greenyellow;
+  
+   }

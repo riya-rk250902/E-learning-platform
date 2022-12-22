@@ -10,7 +10,7 @@ html,body{
   
  }
 .box-1 {
-    position: absolute;
+    position: relative;
     border-radius: 25px;
     width: 1200px;
     height: 540px;
