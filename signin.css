@@ -13,9 +13,9 @@ html,body{
     position: relative;
     border-radius: 25px;
     width: 1200px;
-    height: 540px;
+    height: 600px;
     background-color:white;
-    top: 90px;
+    top: 40px;
     left: 85px;
   }
   .head-1{
@@ -72,10 +72,10 @@ html,body{
   position: relative;
   position: absolute;
   margin-bottom: 50px;
-  top: 300px;
+  top: 250px;
   right:760px;
   padding: 50px 20px;
-  height: 200px;
+  height: 270px;
   width: 400px;
   background: white;
   border-radius:20px;
@@ -146,3 +146,19 @@ html,body{
   background:greenyellow;
 
  }
+ .para-1{
+  position: relative;
+  right:10px;
+  font:20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .cont{
+  display:flex;
+  position: relative;
+  left:20px;
+  bottom:30px;
+ }
+  /* .cont .para-1{
+  position: absolute;
+  left:100px;
+ }  */
