@@ -151,14 +151,30 @@ html,body{
   right:10px;
   font:20px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  bottom: 15px;
  }
  .cont{
   display:flex;
   position: relative;
   left:20px;
-  bottom:30px;
+  bottom: 30px;
  }
   /* .cont .para-1{
   position: absolute;
   left:100px;
  }  */
+ .link-add{
+  position: relative;
+  bottom:60px;
+  left:150px;
+  font:25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .link-add-2{
+  position: relative;
+  bottom:89px;
+  left:70px;
+  font:25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
