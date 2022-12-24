@@ -18,6 +18,13 @@ html,body{
     top: 40px;
     left: 85px;
   }
+  .skill-logo{
+    height:70px;
+    width:70px;
+    position: relative;
+    left:30px;
+    top:10px;
+  }
   .head-1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
