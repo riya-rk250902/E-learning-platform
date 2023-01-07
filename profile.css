@@ -1,0 +1,134 @@
+html,body{
+    height:100%;
+    padding:0;
+    margin:0;
+}
+.backimg{
+    width:1340px;
+    height:1500px;
+   } 
+    
+  .icon1 {
+    width: 45px;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+  }
+  .border-1 {
+    position: absolute;
+    border-radius: 25px;
+    width: 1200px;
+    height: 1000px;
+    background-color:white;
+    top: 50px;
+    left: 85px;
+  }
+  .skill-logo-1{
+    height:70px;
+    width:70px;
+    position: relative;
+    left:30px;
+    top:10px;
+  }
+  .head-1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top:20px;
+  }
+
+  .box-2 {
+    position: absolute;
+    border-radius: 25px;
+    width: 1100px;
+    height: 250px;
+    background-color: antiquewhite;
+    top: 180px;
+    left: 145px;
+  }
+  .img-resize-1{
+    width:400px;
+    border-radius: 25px;;
+    position: absolute;
+    left:700px;
+    height:250px;
+  }
+  
+  .heading-2 {
+    position: absolute;
+    bottom: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 50px;
+  }
+  .p3 {
+    color: grey;
+    top:80px;
+    position: absolute;
+    bottom: 250px;
+    left:55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .box-3 {
+    position: absolute;
+    border-radius: 25px;
+    width: 1100px;
+    height: 250px;
+    background-color:darkturquoise;
+    top: 280px;
+    left: 10px;
+  }
+  .img-resize-2{
+    width:400px;
+    border-radius: 25px;;
+    position: absolute;
+    left:0px;
+    height:250px;
+  }
+  
+  .heading-3 {
+    position: absolute;
+    bottom: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 625px;
+  }
+  .p4 {
+    color: black;
+    top:80px;
+    position: absolute;
+    bottom: 250px;
+    left:625px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .box-4 {
+    position: absolute;
+    border-radius: 25px;
+    width: 1100px;
+    height: 250px;
+    background-color:darkorange;
+    top: 560px;
+    left: 15px;
+
+  }
+  .img-resize-3{
+    width:400px;
+    border-radius: 25px;;
+    position: absolute;
+    left:700px;
+    height:250px;
+  }
+  
+  .heading-4 {
+    position: absolute;
+    bottom: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 50px;
+  }
+  .p5 {
+    color:black;
+    top:80px;
+    position: absolute;
+    bottom: 250px;
+    left:55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
