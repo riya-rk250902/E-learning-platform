@@ -1,4 +1,4 @@
-html,body{
+ html,body{
     height:100%;
     padding:0;
     margin:0;
@@ -14,6 +14,39 @@ html,body{
     top: 50px;
     left: 75px;
   }
+  ul{
+    list-style: none;
+    background:orchid;
+  }
+  ul li{
+    display:inline-block;
+    position: relative;
+  }
+  ul li a{
+    display:block;
+    padding: 20px 25px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+  }
+   ul li ul.dropdown li {
+    display:block;
+   }
+   ul li ul.dropdown{
+    width:100%;
+    background:#112C66;
+    position: absolute;
+    z-index:999;
+    display:none;
+   }
+   ul li a:hover{
+    background: #112C66;
+   }
+   ul li:hover ul.dropdown{
+    display:block;
+   }
   .border-1 {
     position: absolute;
     border-radius: 25px;
@@ -22,8 +55,64 @@ html,body{
     background-color:white;
     top: 50px;
     left: 85px;
-  }
-  .skill-logo-1{
+  } 
+  
+
+   /* .action{
+    position:fixed;
+    top:20px;
+    right:30px;
+   }
+   .action .profile{
+    position:relative;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    overflow: hidden;
+    cursor: pointer;
+   }
+   .action .profile img
+   {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+   } 
+   .action .menu
+   {
+    position: absolute;
+    top:80px;
+    right:-10px;
+    padding: 10px 20px;
+    background: #fff;
+    width:200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+   }
+   .action .menu h3{
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color:#555;
+    line-height:1.2em;
+   }
+   .action .menu h3 span 
+   {
+    content: ;
+    position: absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:20px; */
+
+   
+   .skill-logo-1{
     height:70px;
     width:70px;
     position: relative;
@@ -44,7 +133,7 @@ html,body{
     width: 1100px;
     height: 250px;
     background-color: antiquewhite;
-    top: 180px;
+    top: 250px;
     left: 145px;
   }
   .img-resize-1{
@@ -132,3 +221,19 @@ html,body{
     left:55px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  .btn-1{
+    width:30px;
+    height:30px;
+    position: relative;
+    bottom:100px;
+    left:800px;
+  } */
+
+ .pro-file-logo{
+  width:35px;
+  height:30px;
+ }
+ .pro-file-logo-1{
+  width:50px;
+  height:50px;
+ }
