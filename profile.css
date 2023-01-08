@@ -5,7 +5,7 @@
 }
 .backimg{
     width:1340px;
-    height:1500px;
+    height:1460px;
    } 
     
   .icon1 {
@@ -237,3 +237,43 @@
   width:50px;
   height:50px;
  }
+ .box-5{
+  height:200px;
+  width: 900px;
+  background-color:aquamarine;
+  border-radius: 30px;
+  position: relative;
+  top: 960px;
+  left:70px ;
+}
+.heading-5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  bottom:80px;
+  left:140px;
+}
+.b3{
+  width:200px;
+  height: 50px;
+  position: relative;
+  top:135px;
+  left:350px;
+  background-color: deeppink;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: beige;
+  border: 0;
+}
+.b3:hover
+{
+background-color: cadetblue;
+transition: 0.7s;
+}
+.b3:focus{
+outline-color: transparent;
+outline-style:solid ;
+box-shadow:black;
+}
+.b3:active{
+background-color: salmon;
+}
