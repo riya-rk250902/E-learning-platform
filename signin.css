@@ -59,22 +59,6 @@ html,body{
     width:600px;
     left:600px;
  }
- /* .container{
-  display: flex;
-  position: relative;
-  height: 300px;
-  border-radius: 10px;
-  width: 390px;
-  top:280px;
-  left:180px;
-  background:pink;
-  padding: 15px 10px;
- }
- form .user-details .input-box{
-  width:calc(100% / 2-20px);
-  justify-content: space-between;
- } */
- 
  .container5{
   position: relative;
   position: absolute;

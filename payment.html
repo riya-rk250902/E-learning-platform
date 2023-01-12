@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Payment Gateway.</title>
+    <script>
+        function text(x){
+            if(x==0) document.getElementById("mycode").style.display="block";
+            else document.getElementById("mycode").style.display="none";
+            return;
+        }
+    </script>
+    <link rel="stylesheet" href="payment.css" />
+  </head>
+  <body>
+    <div>
+        <img class="bck-img"
+        src="./images/plain-blue-background.jpg"
+        alt=""
+        />
+    <div class="border-1">
+      <img
+        class="skill-logo-1"
+        src="./images/company-logo.webp"
+        alt=""
+        /> 
+        <h class="head-1"> SkillAcademia</h><br>
+        <h class="p-1">Pay instantly to access your course.</h>
+    </div>
+    <div class="container-e-wallet">
+    <img
+        class="e-wallet-logo"
+        src="./images/e-wallet.webp"
+        alt=""
+        /> 
+            <form>
+                <div class="inputBox-1">
+                    <input type="radio" required="required" value="credit/debit card"onclick="text(0)" checked/>
+                    <span class="Checkmark"></span>
+                </div>
+              <div class="inputBox">
+                  <input type="text" required="required">
+                  <span>Card Username</span>
+              </div>
+              <div class="inputBox">
+                  <input type="text" required="required">
+                  <span>23xxx-xxx-xx</span>
+              </div>
+              <div class="inputBox">
+                <input type="password" required="required">
+                <span>CVV</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span>valid till (date)</span>
+            </div>
+              <div class="inputBox">
+                  <input type="submit" value="Payment">
+              </div>
+          </form>
+   </div>
+  </body>
+  </html>
