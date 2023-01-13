@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Payment Form</title>
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="payment.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="error-txt">this can't be blank.</div>
     <div class="container">
         <h1>Confirm Your Payment</h1>
         <div class="first-row">
@@ -17,6 +19,7 @@
                     <input type="text">
                 </div>
             </div>
+            <div class="error-txt">this can't be blanked</div>
             <div class="cvv">
                 <h3>CVV</h3>
                 <div class="input-field">
@@ -24,6 +27,7 @@
                 </div>
             </div>
         </div>
+        <div class="error-txt">this can't be blanked</div>
         <div class="second-row">
             <div class="card-number">
                 <h3>Card Number</h3>
@@ -66,7 +70,7 @@
                 </div>
             </div>    
         </div>
-        <a href="">Confirm</a>
+         <a href="http://127.0.0.1:5500/alert.html">Confirm</a> 
     </div>
 </body>
 </html>
