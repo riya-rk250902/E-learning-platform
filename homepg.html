@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Online Learning Plattfrom | SkillAcademia</title>
+        <link rel="icon" href="logo_e_learning.jpg">
+        <link rel="stylesheet" href="style.css?v= <?php echo time();?>">
+    </head>
+    <body style="background-color:whitesmoke">
+
+        
+       <div class="navbar">
+
+        <img src="./images/logo_e_learning.jpg" class="image_logo">
+
+        <div class="web_name">
+            <h2>SkillAcademia</h2>
+        </div>
+
+        <form class="search">
+            <input type="text" placeholder="eg: cloud computing" name="search">
+            <button type="submit">search</button>
+        </form>
+
+         <div class="sections">
+           <a href="Homepg.html">Home</a>
+          <a href="about.html">About us</a>
+          <a href="signup.html">Courses </a>
+          <a href="contact.html">Contact us</a>
+        
+         </div> 
+         </div>
+         <!--for image slide-->
+            <div class="slider">
+                <div class="slide">
+         <input type="radio"  id="first" name="radio-btn" checked autofocus="true">
+         <input type="radio"  id="second" name="radio-btn">
+         <input type="radio"  id="third" name="radio-btn">
+
+         <div class="imagg one">
+            <img src="./images/slide_img1.jpg" alt="" >
+            <div class="text-block">
+                <h2>Best Source of Online Learning</h2>
+                <p><b><i>"It's time to step up to the plate and get passionate about your learning.<br>Commit to making e-learning courses,<br> which motivate people to learn new skills and inhance their performance."</i></b></p>
+            </div>
+         </div>
+
+         <div class="imagg">
+            <img src="./images/slide_img2.webp" alt="">
+            <div class="text-block-img2">
+                <h2>Get Started with us today!</h2>
+                <p>Buy any course(s) as much as you want as each course is <b>of Rs. 300</b>. </p>
+                <p>Grab the opportunity right now.</p>
+                
+            </div>
+         </div>
+
+         <div class="imagg">
+            <img src="./images/slide_img3.webp" alt="">
+         </div>
+
+         <div class="nav-auto">
+            <div class="auto-btnn1"></div>
+            <div class="auto-btnn2"></div>
+            <div class="auto-btnn3"></div>
+         </div>
+         </div>
+
+         <div class="nav-m">
+         <label for="first" class="m-b"></label>
+         <label for="second" class="m-b"></label>
+         <label for="third" class="m-b"></label>
+
+        </div>
+    </div>
+
+    <div class="bottom_pg">
+        <h3> Contact us |</h3>
+       <p><a href="tel:+91-921-176-xxxx">Helpline No.: +91-921-176-xxxx</a><br> <a href="mailto:SkillAcademia@gmail.com">Email: SkillAcademia@gmail.com</a><br><a href="tel:+91-989-876-xxxx">Technical Helpline No.: +91-921-176-xxxx</a></p>
+       &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+       <h3>Connect with us | </h3>
+       <p><img src="./images/linkedin_img.png" class="linkedin_photo"> &nbsp;<a href="https://in.linkedin.com/your/profile/url">https://in.linkedin.com/your/profile/url</a><br><img src="facebook_img.png" class="facebook_photo"> &nbsp;<a href="https://www.facebook.com/profile">https://www.facebook.com/profile</a></p>
+       &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+       <h3>Open 24/7 | </h3>
+    <p><img src="./images/time_img.png" class="time_photo"> </p>
+    </div>
+
+    <div class="skill">
+    <p>@SkillAcademia Inc.</p>
+</div>
+
+<script type="text/javascript">
+     var counter=1;
+    setInterval(function(){
+        document.getElementById('first' + counter).checked = true ;
+    counter++;
+    if(counter > 3){
+        counter = 1;
+      }
+    }, 2000);
+</script>
+    </body>
+</html>

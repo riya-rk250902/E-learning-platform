@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    justify-self: center;
+    align-items: center;
+}
+
+.navbar {
+    display:flex;
+    height: 60px;
+    background-color:white;
+    overflow: hidden;
+}
+
+.web_name {
+    margin-left: 95px;
+}
+
+.web_name h2{
+    font-size: 28px;
+    font-style: italic;
+    font-family: "Cascadia Mono SemiBold";
+    margin-top: 15px;
+    color:cornflowerblue;
+}
+
+ .sections{
+    margin-left: 8%;
+}
+
+.sections a{
+    float: left;
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    font-family:'Cascadia Code SemiLight' ;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    padding:5px 8px;
+}
+
+.sections a:hover{
+   color:white;
+   background-color: darkgreen;
+}
+
+.sections a:active{
+    background-color:green;
+}
+
+.image_logo{
+    position: absolute;
+    height: auto;
+    left: 30px;
+    width: 60px;
+}
+
+form.search{
+    margin-left: 13%;
+    margin-top: 15px;
+    align-self: center;
+    width: 35%;
+}
+
+form.search input{
+    border-radius: 1px;
+    padding: 2px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.search button {
+    border-radius: 1px;
+height: 23.6px;
+float: left;
+width: 12%;
+background: #2196F3;
+color: white;
+border: 1px solid grey;
+border-left: none; /* Prevent double borders */
+cursor: pointer;
+}
+
+form.search button:hover {
+background: #0b7dda;
+}
+
+form.search input:focus{
+    outline: whitesmoke;
+}
+
+.cont{
+    padding: 0;
+    margin: 0;
+    background-image: url("contact_background_img.avif");
+    background-repeat:no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.txt-block{
+    text-align: center;
+  color: white;
+}
+
+.txt-block p a{
+    color:#0b7dda;
+}
+form.query-form{
+    position:absolute;
+    background-color: white;
+    border-radius: 10px;
+    width:23%;
+    height:65%;
+    margin-left: 60%;
+}
+
+form.query-form input{
+    font-size: larger;
+    margin-left: 17px;
+    margin-top: 15px;
+    width:88%;
+    border-radius:10px;
+    border-color: whitesmoke;
+}
+
+form.query-form textarea{
+    font-size: medium;
+    margin-left: 17px;
+    margin-top: 15px;
+    width: 88%;
+    border-radius: 10px;
+    border-color: wheat;
+}
+
+form.query-form textarea:focus{
+    outline: whitesmoke;
+    resize: none;
+}
+
+form.query-form input:focus{
+    outline: whitesmoke;
+}
+
+
+form.query-form button{
+    background-color:#2196F3;
+    color: white;
+    border-radius: 7px;
+    border-color:#2196F3;
+    cursor: pointer;
+    width:89%;
+    height: 8%;
+    margin-left: 15px;
+}
+
+.txtblockg{
+    position:absolute;
+    color: white;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.txtblockg a{
+    color:whitesmoke;
+}
+
+.phoneno{
+    margin-left: 28%;
+}
+
+.phoneno img{
+    position: absolute;
+    height: auto;
+    left: 10%;
+    width: 25px;
+}
+
+.email{
+    margin-left: 28%;
+}
+
+.email img{
+    position: absolute;
+    height: auto;
+    left: 9%;
+    width: 30px;
+}
+
+.bottom_pg{
+    width: 1300px;
+    display:flex;
+    background-color:#a6a6a6;
+    color: white;
+    
+}
+
+.bottom_pg h3{
+    margin-top: 40px;
+ margin-left: 20px;
+}
+
+.bottom_pg p{
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.bottom_pg a{
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin_photo{
+    height: auto;
+    width: 15px;
+}
+
+.facebook_photo{
+    height: auto;
+    width: 15px;
+}
+
+.time_photo{
+    width: 50px;
+}
+
+.skill{
+    width: 1300px;
+    display: flex;
+    background-color: #a6a6a6;
+    color: white;
+}
+
+.skill p{
+    margin-bottom: 30px;
+    margin-left: 550px;
+    color: white;
+    text-decoration: none;  
+}
+

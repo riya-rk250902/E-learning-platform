@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    justify-self: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    display:flex;
+    height: 60px;
+    background-color:white;
+    overflow: hidden;
+}
+
+.web_name {
+    margin-left: 95px;
+}
+
+.web_name h2{
+    font-size: 28px;
+    font-style: italic;
+    font-family: "Cascadia Mono SemiBold";
+    margin-top: 15px;
+    color:cornflowerblue;
+}
+
+ .sections{
+    margin-left: 20%;
+}
+
+.sections a{
+    float: left;
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    font-family:'Cascadia Code SemiLight' ;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding:5px 8px;
+}
+
+.sections a:hover{
+   color:white;
+   background-color: darkgreen;
+}
+
+.sections a:active{
+    background-color:green;
+}
+
+.image_logo{
+    position: absolute;
+    height: auto;
+    left: 30px;
+    width: 60px;
+}
+
+form.search{
+    margin-left: 13%;
+    margin-top: 15px;
+    align-self: center;
+    width: 35%;
+}
+
+form.search input{
+    border-radius: 1px;
+    padding: 2px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.search button {
+    border-radius: 1px;
+height: 23.6px;
+float: left;
+width: 12%;
+background: #2196F3;
+color: white;
+border: 1px solid grey;
+border-left: none; /* Prevent double borders */
+cursor: pointer;
+}
+
+form.search button:hover {
+background: #0b7dda;
+}
+
+form.search input:focus{
+    outline: whitesmoke;
+}
+
+.text-block{
+    font-family: Bauhaus 93;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.text-block p{
+    font-size: large;
+}
+
+.top_courses{
+    margin-left: 40px;
+}
+
+.one_course{
+    float: left;
+}
+
+.sec_course{
+    float: left;
+    margin-left: 20px;
+}
+.third_course{
+    float: left;
+    margin-left: 20px;
+}
+.fourth_course{
+    float: left;
+    margin-left: 20px;
+}
+.fifth_course{
+    float: left;
+    margin-left: 20px;
+}
+.sixth_course{
+    float: left;
+    margin-top: 25px;
+}
+.seventh_course{
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.eigth_course{
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.nineth_course{
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.tenth_course{
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.top_courses p{
+    font-size: medium;
+    font-family: "Baskerville Old Face";
+    margin-top: 10px;
+}
+
+.top_courses a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.technical_courses{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.one_tech_course{
+    float: left;
+}
+.sec_tech_course{
+    float: left;
+    margin-left: 20px;
+}
+.third_tech_course{
+    float: left;
+    margin-left: 20px;
+}
+.fourth_tech_course{
+    float: left;
+    margin-left: 20px;
+}
+.fifth_tech_course{
+    float: left;
+    margin-left: 20px;
+}
+
+.technical_courses p{
+    font-size: medium;
+    font-family: "Baskerville Old Face";
+    margin-top: 10px;
+}
+
+.technical_courses a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.management_courses{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.one_manage_course{
+    float: left;
+}
+.sec_manage_course{
+    float: left;
+    margin-left: 20px;
+}
+.third_manage_course{
+    float: left;
+    margin-left: 20px;
+}
+.fourth_manage_course{
+    float: left;
+    margin-left: 20px;
+}
+.fifth_manage_course{
+    float: left;
+    margin-left: 20px;
+}
+
+.management_courses p{
+    font-size: medium;
+    font-family: "Baskerville Old Face";
+    margin-top: 10px;
+}
+
+.management_courses a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.language_courses{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.one_lang_course{
+    float: left;
+}
+.sec_lang_course{
+    float: left;
+    margin-left: 20px;
+}
+.third_lang_course{
+    float: left;
+    margin-left: 20px;
+}
+.fourth_lang_course{
+    float: left;
+    margin-left: 20px;
+}
+.fifth_lang_course{
+    float: left;
+    margin-left: 20px;
+}
+
+.language_courses p{
+    font-size: medium;
+    font-family: "Baskerville Old Face";
+    margin-top: 10px;
+}
+
+.language_courses a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+.art_craft_courses{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.ac_one_course{
+    float: left;
+}
+.ac_two_course{
+    float: left;
+    margin-left: 20px;
+}
+.ac_three_course{
+    float: left;
+    margin-left: 20px;
+}
+.ac_fourth_course{
+    float: left;
+    margin-left: 20px;
+}
+.ac_fifth_course{
+    float: left;
+    margin-left: 20px;
+}
+
+.art_craft_courses p{
+    font-size: medium;
+    font-family: "Baskerville Old Face";
+    margin-top: 10px;
+}
+
+.art_craft_courses a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.other_courses{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.other_one_course{
+    float: left;
+}
+.other_two_course{
+    float: left;
+    margin-left: 20px;
+}
+.other_three_course{
+    float: left;
+    margin-left: 20px;
+}
+.other_fourth_course{
+    float: left;
+    margin-left: 20px;
+}
+
+.other_courses p{
+    font-size: medium;
+    font-family: "Baskerville Old Face";
+    margin-top: 10px;
+}
+
+.other_courses a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.search_course{
+    margin-bottom: 40px;
+    margin-left: 500px;
+    float: left;
+    align-self: center;
+    margin-top: 100px;
+}
+
+.search_course button{
+    height: 30px;
+    width: 100px;
+    border-color:green;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.bottom_pg{
+    width: 1300px;
+    display:flex;
+    background-color:#a6a6a6;
+    color: white;
+    
+}
+
+.bottom_pg h3{
+    margin-top: 40px;
+ margin-left: 20px;
+}
+
+.bottom_pg p{
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.bottom_pg a{
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin_photo{
+    height: auto;
+    width: 15px;
+}
+
+.facebook_photo{
+    height: auto;
+    width: 15px;
+}
+
+.time_photo{
+    width: 50px;
+}
+
+.skill{
+    width: 1300px;
+    display: flex;
+    background-color: #a6a6a6;
+    color: white;
+}
+
+.skill p{
+    margin-bottom: 30px;
+    margin-left: 550px;
+    color: white;
+    text-decoration: none;  
+}
